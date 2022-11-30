@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.style {
+  background-color: blue;
+  color: yellow;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.Button1-button {
+  font-size: 30px;
+  color: white;
+  background-color: #61dafb;
+}
+.Button2-button {
+  font-size: 30px;
+  color: white;
+  background-color: aquamarine;
+}

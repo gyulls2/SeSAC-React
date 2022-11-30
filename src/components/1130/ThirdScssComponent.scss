@@ -1,0 +1,12 @@
+// 전역 변수
+$primary-color: black;
+
+.container1 {
+  // 지역변수
+  $primary-color: red !default;
+  background-color: $primary-color;
+}
+
+.hello {
+  color: $primary-color;
+}

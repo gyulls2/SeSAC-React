@@ -1,0 +1,14 @@
+$colorList: red, orange, yellow, green, blue, navy, purple;
+
+@mixin divStyle($num) {
+  width: 50px * $num;
+  height: 50px * $num;
+  float: left;
+}
+
+@for $i from 1 to 8 {
+  .box_#{$i} {
+    @include divStyle($i);
+    background-color: nth($colorList, $i);
+  }
+}
