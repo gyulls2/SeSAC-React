@@ -1,0 +1,22 @@
+.container {
+  background: black;
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+
+  &.title {
+    border: 3px solid skyblue;
+  }
+}
+
+// 글로벌 키워드는 하나의 블록으로 처리
+
+:global {
+  .span {
+    color: gray;
+    font-weight: bold;
+  }
+  .globalBtn {
+    background-color: gray;
+  }
+}

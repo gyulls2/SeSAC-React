@@ -1,0 +1,41 @@
+div {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+
+  form {
+    background-color: pink;
+    padding: 20px;
+
+    input {
+      margin-bottom: 30px;
+    }
+    button {
+      // all: unset;
+      width: 100px;
+      outline: none;
+      border: none;
+      background-color: skyblue;
+      padding: 10px;
+    }
+  }
+
+  table {
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+
+    thead {
+      background-color: skyblue;
+      border: none;
+    }
+
+    button {
+      all: unset;
+    }
+
+    td {
+      height: 30px;
+    }
+  }
+}

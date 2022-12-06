@@ -1,0 +1,23 @@
+.container2 {
+  background-color: yellow;
+}
+.container2 ul {
+  list-style: none;
+}
+.container2 ul li {
+  color: red;
+  padding: 20px;
+}
+.container2 ul li:last-child {
+  color: blue;
+}
+
+.parent-small {
+  font-size: 10px;
+}
+.parent-medium {
+  font-size: 30px;
+}
+.parent-large {
+  font-size: 50px;
+}
