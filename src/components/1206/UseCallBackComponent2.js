@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 
 const UseCallBackComponent2 = () => {
   const [count, setCount] = useState(0);
-  const clickHandler = () => {
+
+  const clickHandler = useCallback(() => {
     console.log("count : ", count);
-  };
+  }, [count]);
+
   useEffect(() => {
     console.log("clickHandler()변경");
   }, [clickHandler]);
